@@ -8,7 +8,7 @@ const HomeScreen = () => {
   const url = "https://recipes.devmountain.com";
 
   const getRecipes = () => {
-    axios.get(`${url}/recipes`).then((res) => {
+    axios.get(`https://recipes.devmountain.com/recipes`).then((res) => {
       setRecipes(res.data);
       console.log(res.data);
     });
@@ -21,7 +21,7 @@ const HomeScreen = () => {
   return (
     <div>
       <AdBanner />
-      <RecipeContainer />
+      <RecipeContainer recipes={recipes} />
     </div>
   );
 };

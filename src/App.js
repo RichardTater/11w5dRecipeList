@@ -20,7 +20,7 @@ function App() {
           <Route path="/recipe/:id" element={<DetailScreen />} />
         </Routes>
       </main>
-      {/* <Footer /> */}
+      <Footer />
     </div>
   );
 }
