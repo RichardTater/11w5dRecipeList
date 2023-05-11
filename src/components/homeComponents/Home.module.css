@@ -45,7 +45,7 @@
     font-size: 36px;
   } */
   
-  h3 {
+  .adH3 {
     font-size: 24px;
     color: white;
     text-align: center;
@@ -61,13 +61,13 @@
     padding: 30px;
   } */
   
-  /* .recipe_container {
+  .recipeContainer {
     display: flex;
     gap: 50px;
     justify-content: center;
     flex-wrap: wrap;
     margin-top: 50px;
-  } */
+  }
   
   /* input:focus {
     outline: none;

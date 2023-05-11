@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import AdBanner from "./AdBanner";
-// import RecipeContainer from "./RecipeContainer";
+import RecipeContainer from "./RecipeContainer";
 import axios from "axios";
 
 const HomeScreen = () => {
@@ -21,7 +21,7 @@ const HomeScreen = () => {
   return (
     <div>
       <AdBanner />
-      {/* <RecipeContainer recipes={recipes} /> */}
+      <RecipeContainer />
     </div>
   );
 };

@@ -7,7 +7,7 @@ import Footer from "./components/Footer";
 import Header from "./components/Header";
 import HomeScreen from "./components/homeComponents/HomeScreen";
 import NewRecipeScreen from "./components/newRecipeComponents/NewRecipeScreen";
-import RecipeCard from "./elements/RecipeCard";
+
 
 function App() {
   return (
@@ -20,7 +20,7 @@ function App() {
           <Route path="/recipe/:id" element={<DetailScreen />} />
         </Routes>
       </main>
-      <Footer />
+      {/* <Footer /> */}
     </div>
   );
 }
