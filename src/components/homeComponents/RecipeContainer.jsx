@@ -28,7 +28,7 @@ function RecipeContainer({ recipes }) {
         />
       </span>
       <div className={styles.recipeContainer}>
-      {recipeDisplay ? recipeDisplay : <h2>No Recipes :</h2>}
+        {recipeDisplay ? recipeDisplay : <h2>No Recipes :</h2>}
       </div>
     </section>
   );

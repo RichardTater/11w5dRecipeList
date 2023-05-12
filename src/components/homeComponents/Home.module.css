@@ -40,10 +40,10 @@
     /* color: var(--color); */
   }
   
-  /* h2 {
+  h2 {
     color: black;
     font-size: 36px;
-  } */
+  }
   
   .adH3 {
     font-size: 24px;
@@ -97,3 +97,14 @@
     justify-content: center;
     margin-top: 40px;
   }
+
+ .details_container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ }
+ 
+ .ingredients_container{
+  display: flex;
+  justify-content: center;
+  align-items: center; }

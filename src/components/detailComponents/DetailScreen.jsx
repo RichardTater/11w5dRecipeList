@@ -15,10 +15,11 @@ const DetailScreen = () => {
       setRecipe(res.data);
     });
   }, []);
+  // console.log(res.data)
 
   return (
     <section>
-      <DetailImage image={recipe.image_url} title={recipe.recipe_name} />
+      <DetailImage image={recipe.image_url} title={recipe.recipe_name}  />
       <div className={styles.details_container}>
         <div className={styles.ingredients_container}>
           <h2>Recipe</h2>

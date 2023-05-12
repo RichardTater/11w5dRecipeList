@@ -12,10 +12,16 @@ header {
 }
 
 .nav_btn {
-  --color: hsl(var(--primary-color), var(--l));
-  background-color: var(--color);
+  /* --color: hsl(var(--primary-color), var(--l)); */
+  background-color: transparent;
+  border: none;
   color: white;
   transition: all 0.15s ease-in-out;
+}
+
+.navbarBtn {
+  display: flex;
+  justify-content: space-between;
 }
 
 .nav_btn:hover {
